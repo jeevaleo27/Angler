@@ -1,0 +1,83 @@
+*{
+  box-sizeing: boder-box;
+ }
+ body
+ { font-family:ariel;
+
+ }
+ 
+ 
+ #header{
+  background-color: #D2691E;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  }
+  
+/*  nav {
+  float: left;
+  width: 10%;
+  height: 900px;
+  background: #ccc;
+  padding: 20px;
+}
+*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+  
+ #form {
+ float: left;
+  /*padding: 20px;*/
+/*  width: 100%;*/
+  background-color:#F0F8FF;
+ /* height: 120%; */
+  text-align:;
+ 
+}
+ #form2 {
+ float: left;
+  padding: 20px;
+  width: 100%;
+  background-color:#F0F8FF;
+  height: 120%; 
+  text-align: center;
+
+}
+#delete{
+  color: white;
+}
+
+#alertFname,#alertLname,#alertemail,#alertpassword,
+#alertphone,#alertdate,#alertgender,#alertcheck
+,#alertmessage,#alertdrop
+{
+  color: red;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  /*width: 40%;
+  height: 100%;*/
+ } 
+  #footer {
+  background-color: 
+#E6E6FA;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+
+@media (max-width: 900px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
